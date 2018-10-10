@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box
+}
+
+.container {
+    width: 90%;
+    background-color: greenyellow;
+
+}
+
+.skills {
+    text-align: right;
+    background-image: url("44550-full.png");
+    padding: 10px;
+}
+
+.degats {
+
+    background-color: #f44336;
+}
+
+body {
+    background-image: url("environment_forest_alt1_1.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("Neigfriste Font by Rifki (7NTypes).otf");
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url("MortifiedDrip.ttf");
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url("Grooving.ttf");
+}
+
+h1 {
+    color: yellowgreen;
+    font-size: 8em;
+    text-align: center;
+    text-shadow: 4px 4px white;
+    font-family: myFont;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: yellowgreen;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 4px 4px black;
+    font-family: myFont;
+    margin-bottom: 0;
+}
+
+#uno {
+    font-size: 5em;
+    text-shadow: 3px 3px white;
+    font-family: myFont;
+    color: greenyellow;
+    margin-top: 5px;
+}
+
+#list {
+    background-image: url("wood.jpg");
+    width: 500px;
+    margin: auto;
+    color: rgb(66, 32, 4);
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    font-family: myFont1;
+    font-size: 30px;
+    color: rgb(34, 31, 212);
+}
+
+.create {
+    height: 2em;
+    font-size: 2em;
+}
+
+.btn {
+    font-size: 1.2em;
+    color: greenyellow;
+    font-family: myFont1;
+
+}
+
+legend {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    font-family: myFont;
+    color: greenyellow;
+}
+
+fieldset {
+    background-image: url("wood.jpg");
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+#deco {
+    color: greenyellow;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    background-image: url("wood.jpg");
+    width: 500px;
+    margin: auto;
+    font-family: myFont;
+}
+
+.details {
+    font-family: myFont2;
+    font-size: 2em;
+    text-shadow: 2px 2px white;
+    color: black;
+    Margin: 0;
+}
+
+.victim {
+    background-image: url("44550-full.png");
+}
+
+@keyframes example {
+    0% {
+
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+
+        left: 500px;
+        top: 0px;
+    }
+
+    100% {
+
+        left: -500px;
+        top: 0px;
+    }
+}
+
+.lutin {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 200;
+    animation-direction: alternate-reverse;
+}

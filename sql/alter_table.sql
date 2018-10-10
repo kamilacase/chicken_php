@@ -1,0 +1,5 @@
+ALTER TABLE `personnages`
+ADD `lev` INT
+(5) UNSIGNED NOT NULL DEFAULT '0' AFTER `degats`;
+ALTER TABLE `personnages`
+ADD `xp` INT UNSIGNED NOT NULL DEFAULT '0' AFTER `lev`;
